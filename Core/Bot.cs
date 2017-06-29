@@ -11,6 +11,7 @@ namespace BSBot
 {
     class MyBot
     {
+        MyBot bot = new MyBot();
         DiscordClient discord;
         CommandService commands;
 
