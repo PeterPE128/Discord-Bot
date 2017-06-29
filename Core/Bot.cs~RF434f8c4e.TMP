@@ -9,6 +9,14 @@ using Discord.Commands;
 
 namespace BSBot
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MyBot bot = new MyBot();
+        }
+    }
+
     class MyBot
     {
         MyBot bot = new MyBot();
