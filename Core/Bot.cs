@@ -37,23 +37,24 @@ namespace BSBot
             {
                 while (true)
                 {
-                    await discord.Connect("token", TokenType.Bot);
+                    await discord.Connect("MzI5OTYwNTMzOTU4NzIxNTM2.DDaDSQ.jabWwMLnciD96RsnuPJHSFrS-1k", TokenType.Bot);
                     Console.WriteLine("Bot connected correctly");
-                    discord.SetGame("%help for commands");
+                    discord.SetGame("*help for commands");
                     break;
                 }
             });
         }
 
 
-
-
-
-
-
-
-            static void Main(string[] args)
+            private void Commands()
         {
+
         }
+
+        private void Log(object sender, LogMessageEventArgs e)
+        {
+            Console.WriteLine($"[{e.Source}] {e.Message}");
+        }
+
     }
 }
