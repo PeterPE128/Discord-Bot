@@ -38,7 +38,7 @@ namespace BSBot
             {
                 while (true)
                 {
-                    await discord.Connect("MzI5OTYwNTMzOTU4NzIxNTM2.DDaDSQ.jabWwMLnciD96RsnuPJHSFrS-1k", TokenType.Bot);
+                    await discord.Connect("Token", TokenType.Bot);
                     Console.WriteLine("Bot connected correctly");
                     discord.SetGame("*help for commands");
                     break;

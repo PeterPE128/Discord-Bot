@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Discord;
 using Discord.Commands;
 
-namespace Core
+namespace BSBot
 {
     class Program
     {
