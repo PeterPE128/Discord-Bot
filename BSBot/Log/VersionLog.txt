@@ -1,0 +1,30 @@
+Version:
+
+-Build 0001:
+
+	+Created project
+	+Added first Command: *help
+
+-Build 0002:
+
+	+Restarted project due to errors and the inability to add more classes
+	+Added Class: MyBot, containing the core of the bot
+	+Added Command: *infspam
+	+Added Command: *haha
+	+Added Command *infttsspam
+	+Added Logging of commands via "Console.WriteLine("...");"
+
+-Build 0003:
+
+	+Added Class: Help, to fit all the help commands due to my inefficiency in making them
+	+Added Command: *help all
+	+Added Command: *haha
+	+Added Command: *shut up
+
+-Build 0004:
+
+	+Some minor updates to the *help all command
+	+Added Command: *help help
+	+Added VersionLog
+
+-
